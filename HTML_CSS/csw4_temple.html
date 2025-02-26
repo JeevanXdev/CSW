@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+       .img{
+        display: block;
+        margin: auto;
+       }
+       h1{
+        text-align:center;
+        color: brown;
+       }
+        .d1 p{
+        font-size: 25px;
+         font-weight: bold;
+         text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Temples in Odisha</h1>
+    <hr>
+    <div class="d1" id="i1">
+        <p>Lingraj Temple Bhubaneswar</p>
+        <button><a href="https://en.wikipedia.org/wiki/Lingaraja_Temple">Wikipedia</a></button> 
+        <br>
+        <button><a href="https://maps.app.goo.gl/fCAkLtHjzuz6fWy56">Location</a></button>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Lingaraja_Temple"><img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGA6EQfhcaHfyCq1wbuBkrrpXgYLegg0XMHQ&s" alt="Lingraj Temple"></a>
+    </div>
+    <hr>
+    <div class="d1" id="i2">
+        <p>ISKON Temple Bhubaneswar</p>
+        <button><a href="https://en.wikipedia.org/wiki/File:Isckon_temple_bhubaneswar_orissa.jpg">Wikipedia</a></button>
+        <br>
+        <button><a href="https://maps.app.goo.gl/xwrvSfJM88JETdaaA"></a>Location</button>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/File:Isckon_temple_bhubaneswar_orissa.jpg">  <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzN-iHx85Q3D7EACkcCCess3jI4sNW4BAxA&s" alt="ISKON Temple">
+        </a>
+      
+    </div>
+    <hr>
+    <div class="d1"id="i3">
+        <p>Jagannath Temple Puri</p>
+        <button><a href="https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri">Wikipedia</a></button>
+        <br>
+        <button><a href="https://maps.app.goo.gl/uAPeizgDQZCZbUPx7">Location</a></button>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"><img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJ27Xdtq3bcjZ1SywQQr_9WEeYL2FEG0oHQ&s" alt="Jagannath Temple" ></a>
+    </div>
+    <div id="root"></div>
+    <script>
+        const h1 = React.createElement(h1,{},'Hello World');
+        const root = ReactDOM.createRoot(document.querySelector('#root'));
+        root.render(h1);
+    </script>
+</body>
+</html>
