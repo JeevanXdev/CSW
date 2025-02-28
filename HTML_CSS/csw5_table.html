@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin: 20%;
+            /* padding: 10px; */
+            /* align-items: center; */
+        }
+        table {
+            font-family: comic neue;
+            background-color: rgb(255, 255, 255);
+            width: 80%;
+            border: 5px, solid;
+        }
+
+        td {
+            background-color: aqua;
+            border: 0.5px, solid;
+        }
+
+        th {
+            font-size: larger;
+            background-color: aquamarine;
+            border: 0.5px, solid;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        #i1 td {
+            background-color: rgb(177, 120, 230);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption><b><u>Student Details</u></b></caption>
+        <tr>
+            <th>Sl no.</th>
+            <th>Reg. no.</th>
+            <th>Name</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>66</td>
+                <td>2341022017</td>
+                <td>Aryan Vishwakarma</td>
+            </tr>
+            <tr id="i1">
+                <td>67</td>
+                <td>2341022018</td>
+                <td>Aryan Kumar</td>
+                <!-- <td>abcd</td> -->
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>2341022019</td>
+                <td>Aryan Sharma</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
