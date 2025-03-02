@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-size:60px ;
+            display: flex;
+            justify-content: center;
+            font-family: comic neue;
+            text-align: center;
+            font-size: 20px;
+        }
+        table{
+            padding: 50px;
+            border: 5px,solid;
+        }
+        th{
+            font: bold;
+        }
+        tr{ padding: 5px;
+            border: 0.5px,solid;
+        }
+        td{
+            padding: 5px;
+            border: 0.5px,solid;
+        }
+        .veg{
+            background-color: rgb(0, 141, 24);
+        }
+        .nonveg{
+            color: aliceblue;
+            background-color: rgb(146, 0, 0);
+        }
+        caption{
+            color: aliceblue;
+            background-color: black;
+            font-size: 80px;
+        }
+        .big{
+            font-size: 30px;
+        }
+        .list{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>CSW Dinner Menu</caption>
+        <tr class="big">
+            <td>Sl. no.</td>
+            <td>Name</td>
+            <td>Ingredients</td>
+            <td>Image</td>
+            <td>Price</td>
+        </tr>
+        <tbody>
+            <tr class="veg">
+                <td>1.</td>
+                <td class="big">Veg Pizza</td>
+                <td class="list">
+                    <ul style="list-style-type:square;">
+                        <li>Cherry</li>
+                        <li>Tomatoes</li>
+                        <li>Artichoke</li>
+                        <li>Bell pepper</li>
+                        <li>Olives</li>
+                        <li>Red Onion</li>
+                        <li>baby Spinach</li>
+                    </ul>
+                          </td>
+                <td><img src="https://imgs.search.brave.com/p9JIsdGlj-7EilB1UhtTqDcbUHbPuPa9SReE1IyLTJs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/eXVtbXl0dW1teWFh/cnRoaS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTIvMDMv/Mi4uLmpwZw" alt="Veg Pizza" width="300px"></td>
+                <td>Rs.99/-</td>
+            </tr>
+            <tr class="nonveg">
+                <td>2.</td>
+                <td class="big">Chicken Pizza</td>
+                <td class="list">
+                    <ul style>
+                        <li>Chesse</li>
+                        <li>Chillies</li>
+                        <li>Onion</li>
+                        <li>Garlic</li>
+                    </ul>
+                </td>
+                <td><img src="https://imgs.search.brave.com/W8eyyhj3l-g3dEreCBGT2jSIegh3NF7GYz_ND1KvHts/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg2/ODcwNzg2L3Bob3Rv/L2NoaWNrZW4tcGl6/emEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPURhYThleGxh/WFV1UXl1LU1oX2Jk/Y0MyUzhOc3E2MmxN/Y2FRd2wxanlPWkk9" alt="Chicken Pizza"width="300px"></td>
+                <td>Rs.149/-</td>
+            </tr>
+            <tr class="veg">
+                <td>3.</td>
+                <td class="big">Panner Pizza</td>
+                <td class="list">
+                    <ul style="list-style-type:square;">
+                        <li>Panner</li>
+                        <li>Chesse</li>
+                        <li>Chillies</li>
+                        <li>Onion</li>
+                    </ul>
+                </td>
+                <td><img src="https://imgs.search.brave.com/5WU4GyZB6j2l4ASvOpdb1KznIpj8qPMdadTv2BbHqNo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9pbmRpYW4tcGFu/ZWVyLXBpenphLXdp/dGgtZnJlc2gtY290/dGFnZS1jaGVlc2Ut/Y3ViZXMtd2hpdGUt/c2F1Y2VfNDY2Njg5/LTU1NjI3LmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="Panner Pizza"width="300px"></td>\
+                <td>Rs.129/-</td>
+            </tr>
+            <tr class="nonveg">
+                <td >4.</td>
+                <td class="big">Chicken Burger</td>
+                <td class="list">
+                    <ul style="list-style-type:square;">
+                        <li>Chicken</li>
+                        <li>Chesse</li>
+                        <li>Chillies</li>
+                        <li>Onion</li>
+                    </ul>
+                </td>
+                <td><img src="https://imgs.search.brave.com/EKcDTAxGbVOrRob-n39JLYaW8oJ6pRWvYAotJP_x1nE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcy/NDQ5NDYxL3Bob3Rv/L2NoaWNrZW4tYnVy/Z2VyLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1oeGI3WXI3/WnRHYmZKR2VIV01N/QkZsLVZkaURvWmRL/ZDdUZVpIajN3RkVz/PQ" alt="Chicken Burger"width="300px">
+                </td>
+                <td>Rs.99/-</td>
+            </tr>
+            <tr class="veg">
+                <td>5.</td>
+                <td class="big">Veg Burger</td>
+                <td class="list">
+                    <ul >
+                        <li>Tomatoes</li>
+                        <li>Olives</li>
+                        <li>Chesse</li>
+                        <li>Chillies</li>
+                        <li>Onion</li>
+                    </ul>
+                </td>
+                <td><img src="https://imgs.search.brave.com/HYyXnN9JMi_UvDwHJgJjpEizzQG-N2iR8iD-o-C-7SE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTEx/OTIzMzcyL3Bob3Rv/L3ZlZ2dpZS1idXJn/ZXIuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPTRwa1JUSXlx/ejY4YmZIOE0zWDBW/Z0dIMlNpcVllbG1L/SWY3WS01OGhLU0U9" alt="Veg burger" width="300px"></td>
+                <td>Rs.79/-</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
